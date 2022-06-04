@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-class
+{
+  margin-top: 3rem;
+}
+#nav-title
+{
+  border-bottom: 1px solid black;
+  color:black;
+}
+.form{
+  border-radius: 5px;
+  width: 550px;
+  margin: 2rem auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+  margin-left: 80px;
+}
+
+.form-body > div{
+  margin: 1.5rem;
+}
+
+.form__label{
+  width: 40%;
+  background-color: none;
+}
+.form_input{
+  width: 60%;
+}
+input
+{
+  background-color:transparent;
+  outline: none;
+  border: none;
+  position: relative;
+}
+input::after
+{
+  content: "ksfjsdkf";
+  position: absolute;
+}
+input:active
+{
+  border-bottom: ;
+}
+.footer{
+  text-align: center;
+  margin-top: 2rem;
+}
